@@ -13,50 +13,68 @@
 
 let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel).');
 
-// Using the same prompt() command, populate the following variables:
-//
-// TODO: A variable named "authorName" for authorial attribution.
+// "authorName" prompt to get a name from user
 let authorName = prompt('What is your full name?');
 
-// TODO: A variable named "adjective1" for a word used to describe something.
+// "adjective1" to get a word used to describe something
+let adjective1 = prompt('Give me a word to describe something');
 
-// TODO: A variable named "vehicle" for a mode of transation (e.g. plane, boat, etc.).
+// "vehicle" prompt for the name of a vehicle
+let vehicle = prompt('What is your favorite vehicle?');
 
-// TODO: A variable named "vehiclePart" for a part of the vehicle you just named.
+// "vehiclePart" for a part of the vehicle just named
+let vehiclePart = prompt('A part of the vehicle you just named');
 
-// TODO: A variable named "parking" for a location where you park the vehicle you just named.
+// "parking" for a place to keep said vehicle
+let parking = prompt('Name a place that you might keep this vehicle');
 
-// TODO: A variable named "precious" for a precious object.
+// "precious" prompt for precious object
+let precious = prompt('Name a precious object');
 
-// TODO: A variable named "noiseMaker" for something that makes a sound.
+// "noiseMaker" prompt for something that makes noise
+let noiseMaker = prompt('Name something that makes noise');
 
-// TODO: A variable named "crowdBehavior" for something that people do together as a group.
+// "crowdBehavior" for a group activity of some kind
+let crowdBehavior = prompt('Name something a group of people do together');
 
-// TODO: A variable named "adjective2" for a word used to describe something.
+// "adjective2" prompt for a descriptive word
+let adjective2 = prompt('What is another word to describe something');
 
-// TODO: A variable named "adjective3" for a word used to describe something.
+// "adjective3" for another descriptive word
+let adjective3 = prompt('Give me one more word to describe something');
 
-// TODO: A variable named "color" for the name of a color.
+// "color" for the name of a color
+let color = prompt('What is your favorite color?');
 
-// TODO: A variable named "familyMember" for the name of a family relationship (e.g. sister, father, etc.).
+// "familyMember" for the name of a family relationship (e.g. mother, father, brother etc.)
+let familyMember = prompt('Name a family relationship (e.g mother, father, brother, etc.)');
 
-// TODO: A variable named "organ" for the name of a body organ (e.g. heart, liver, spleen, etc.).
+// "organ" for the name of an organ in the body (e.g. heart, liver, brain, etc.).
+let organ = prompt('Name an organ in the body (e.g heart, liver, brain)');
 
-// TODO: A variable named "bodyPart1" for the name of a body part.
+// "bodyPart1" for the name of a part of the body
+let bodyPart1 = prompt('Name a part of the body');
 
-// TODO: A variable named "bodyPart2" for the name of a body part.
+// "bodyPart2" for the name of another part of the body
+let bodyPart2 = prompt('Name another body part');
 
-// TODO: A variable named "bodyPart3" for the name of a body part.
+// "bodyPart3" for a name of a third part of the body
+let bodyPart3 = prompt('Name a third body part');
 
-// TODO: A variable named "thing" for an object.
+// "thing" prompt to name an object
+let thing = prompt('Name an object');
 
-// TODO: A variable named "thing2" for an object you might give somebody you love.
+// "thing2" for an object you might give somebody you love
+let thing2 = prompt('Name an object you might give to someone you love');
 
-// TODO: A variable named "thing3" for an object you might give somebody you like.
+// "thing3" for the name of an object to give to someone you like
+let thing3 = prompt('Name an object you might give to someone you like');
 
-// TODO: A variable named "adjective4" for a word used to describe the vehicle.
+// "adjective4" for a word to describe a vehicle
+let adjective4 = prompt('A word used to describe a vehicle');
 
-// TODO: A variable named "adjective5" for a word used to describe the vehicle.
+// "adjective5" for a word used to describe a vehicle
+let adjective5 = prompt('What is another word used to describe a vehicle?');
 
 
 ////////////////////////////////////////////////////////////////////////
@@ -65,14 +83,14 @@ let authorName = prompt('What is your full name?');
 // The poem we are using has section numbers. Let's allow the user to
 // generate their own.
 //
-// TODO: To begin with, prompt the user to collect their favorite number that is not zero.
-// Call this variable "userNumber".
+//  "userNumber" prompt for the user's lucky number 
+let userNumber = prompt('What is your lucky number?');
 
-// TODO: generate TWO more numbers called "number2" and "number 3".
-// Use any operator you would like to add, multiply, divide, or otherwise
-// change the number that the user submitted.
+// "number2" to change the number submitted
+let number2 = userNumber * 3;
 
-
+// "number3" to further change the number submitted
+let number3 = userNumber / number2 + (number2 + 3);
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
 //
 // The code below his line handles variable replacement into the HTML file.
