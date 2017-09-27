@@ -41,7 +41,7 @@ let crowdBehavior = prompt('Name something a group of people do together');
 let adjective2 = prompt('What is another word to describe something');
 
 // "adjective3" for another descriptive word
-let adjective3 = prompt('Give me one more word to describe something');
+let adjective3 = prompt('Give me another word to describe something');
 
 // "color" for the name of a color
 let color = prompt('What is your favorite color?');
@@ -87,10 +87,10 @@ let adjective5 = prompt('What is another word used to describe a vehicle?');
 let userNumber = prompt('What is your lucky number?');
 
 // "number2" to change the number submitted
-let number2 = userNumber * 3;
+let number2 = userNumber / 2;
 
 // "number3" to further change the number submitted
-let number3 = userNumber / number2 + (number2 + 3);
+let number3 = userNumber / number2 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
 //
 // The code below his line handles variable replacement into the HTML file.
