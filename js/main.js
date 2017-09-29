@@ -7,9 +7,8 @@
 // to collect input from the user. The input you collect will be used to
 // generate the story.
 //
-//
-// TODO: Write a prompt statement like the one below for each of the
-// variables listed.
+/* Collecting data from user for mad-lib */
+
 
 let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel).');
 
@@ -63,6 +62,8 @@ let adjective5 = prompt('What is another word used to describe a vehicle?');
 // generate their own.
 //
 let userNumber = prompt('What is your lucky number?');
+
+/* Manipulating data from user */ 
 
 // let number2 divide userNumber by 2
 let number2 = userNumber / 2;
